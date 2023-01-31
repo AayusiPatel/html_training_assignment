@@ -2,11 +2,72 @@ body {
     background-color: #FAFAFA;
 }
 
+.container-fluid {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+
+@media screen and (min-width:360px) {
+    .header {
+        top: 0%;
+        left: 0%;
+        height: 8%;
+        width: 100%;
+    }
+    .menu-bar {
+        top: 3.4%;
+        left: 2%;
+        width: 1.2%;
+        height: 0.8%;
+    }
+    .logo {
+        top: 25px;
+        left: 72px;
+        width: 142px;
+        height: 30px;
+    }
+    .search-icon {
+        top: 32px;
+        left: 291px;
+        width: 16px;
+        height: 16px;
+    }
+    .search {
+        top: 28px;
+        left: 321px;
+        width: 49px;
+        height: 21px;
+    }
+    .notification {
+        top: 28px;
+        left: 1294px;
+        width: 22px;
+        height: 21px;
+    }
+    .profile {
+        top: 18px;
+        left: 1368px;
+        width: 44px;
+        height: 44px;
+    }
+    .name {
+        top: 28px;
+        left: 1424px;
+        width: 68px;
+        height: 21px;
+    }
+    .dwn-arrow {
+        top: 37px;
+        left: 1507px;
+        width: 10px;
+        height: 6px;
+    }
+}
+
 .header {
     top: 0px;
     left: 0px;
     height: 80px;
-    width: 1560px;
+    width: 100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
@@ -700,6 +761,15 @@ form {
     position: absolute;
 }
 
+.form-group {
+    position: relative;
+}
+
+.form-control {
+    height: 40px;
+    margin-top: 20px;
+}
+
 .dropdown {
     top: 319px;
     left: 323px;
@@ -790,8 +860,8 @@ tr {
 .p {
     background-color: #C8242F;
     color: #F16C20;
-    display: flex;
     flex-wrap: wrap;
+    display: inline;
 }
 
 .two-column {
@@ -804,5 +874,58 @@ tr {
     letter-spacing: 0px;
     color: #3E3E3E;
     opacity: 1;
+    position: absolute;
+}
+
+.three-column {
+    top: 769px;
+    left: 321px;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    position: absolute;
+}
+
+.four-column {
+    top: 910px;
+    left: 321px;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    position: absolute;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+    font-size: 15px;
+    margin-right: 36px;
+}
+
+.tab1 {
+    color: red;
+    text-underline-offset: 17px;
+    text-decoration-thickness: 2px;
+}
+
+.tab2,
+.tab3 {
+    text-decoration-color: white;
+}
+
+.singleLine {
+    border: 1px solid #ADADAD;
+    margin-top: 13px;
+    margin-bottom: 27px;
+}
+
+.lorem {
+    margin-bottom: 75px;
+}
+
+.container text-center {
+    top: 607px;
+    left: 323px;
     position: absolute;
 }
